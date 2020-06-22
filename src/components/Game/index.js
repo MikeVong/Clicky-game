@@ -3,9 +3,9 @@ import "./style.css";
 
 function Game(props) {
   return (
-    <div className="card" key={props.id} onClick={() => props.clicked(props.id)}>
+    <div className="card col-md-3" key={props.id} onClick={() => props.handleClick(props.id,props.clicked)}>
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={props.name} src={props.image} id={props.name}/>
       </div>
     </div>
     

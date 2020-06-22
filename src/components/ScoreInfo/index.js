@@ -9,6 +9,8 @@ function ScoreInfo(props) {
         <h2>Score: {props.score}</h2>
         <hr></hr>
         <h2>Top Score: {props.topScore}</h2>
+        <hr></hr>
+        <h2 id="message">{props.message}</h2>
       </div>
   );
 }

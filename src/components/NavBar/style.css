@@ -1,5 +1,10 @@
 .navbar {
     width: 100%;
-    background-color: aqua;
-    
+    color: whitesmoke;
+      
+}
+
+a{
+    color: wheat;
+    font-weight: 100;
 }

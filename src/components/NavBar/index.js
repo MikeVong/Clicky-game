@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function NavBar(props) {
+function NavBar() {
   return (
 <nav className="navbar navbar-inverse">
   <div className="container-fluid">
